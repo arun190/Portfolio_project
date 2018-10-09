@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	
+}
+
+body {
+	background-color: #efecec;
+}
+
+a, a:hover{
+	color: white;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.font-div {
+	width: 30%;
+}
+
+img {
+	width: 100%;
+	height: 312px;
+}
+
+
+.card {
+	border-radius: 0px !important;
+}
+
+.card-footer ,.card-header{
+	text-align: center;
+}
+
+/*media query */
+
+
+@media only screen and (min-width : 320px) and (max-width : 375px) {
+
+.font-div {
+	padding: 20px 0px !important;
+}
+.fa {
+	    font-size: inherit !important;
+}
+
+h1 {
+	font-size: 27px;
+}
+
+.p-5{
+	padding: 8px !important;
+}
+
+img {
+	height: 230px;
+}
+
+}
